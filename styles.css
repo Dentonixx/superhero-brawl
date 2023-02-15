@@ -1,0 +1,116 @@
+
+h1 {
+    color: black;
+    font-size: 40px;
+    background-color: #e4b47c;
+    padding: 10px 0px;
+  
+  }
+  
+  #contents {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  
+  }
+  #scores{
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0px;}
+    
+  
+  
+  #score-board{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+  }
+  #p1-score-board, #p2-score-board{
+     display: flex;
+     justify-content: space-between;
+     margin: 0px 10px;
+  }
+  #p1-scores{
+    background-color: #a6aec9;
+    margin-left: 5px;
+    }
+  #p2-scores{
+    background-color: #a8835e;
+    margin-left: 5px;
+    
+  }
+    
+  #attribute-panel {
+    background-color: #c38a3c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+  
+  }
+  
+  .buttons-list {
+  
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .statButton {
+    margin: 2px;
+    width:
+  }
+  
+  .player-panel {
+    width: 30%;
+  
+  }
+  
+  #p1-panel {
+    background-color: #a6aec9;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  #p2-panel {
+    background-color: #a8835e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  body {
+    text-align: center;
+    background-color: #342853;
+    font-family: Georgia, serif;
+  
+  }
+  
+  p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  button {
+  
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+  
+  }
+  
+  button:hover {
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+    transition: all, 4000ms, ease-in-out;
+  
+  }
+  
