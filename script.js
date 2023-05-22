@@ -86,6 +86,8 @@ const swapActivePlayer = () => {
         activePlayer = 'p1'
 }}
 
+
+// Work on scoring system
 const scoringSystem = () => {
 
 }
